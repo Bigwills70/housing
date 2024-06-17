@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+}
+
+#ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: white;
+}
+
+#ull {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: white;
+}
+
+#ull a {
+  color: white;
+}
+.myBg {
+  background-color: #004274;
+}
+
+.myBg .nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.second_component_section {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.second_component_section form input {
+  width: 400px;
+  padding: 0.7rem;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.second_component_section form select {
+  padding: 1rem;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100px;
+  margin-left: 1rem;
+}
+
+.second_component_section button {
+  background-color: #004274;
+  border: none;
+  color: white;
+  padding: 1rem;
+  width: 120px;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+/* Hero Component */
+
+.heroBg {
+  margin-top: 1rem;
+  background: url(./assets/h1_hero1.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroBg .inner {
+  color: white;
+  padding-top: 10%;
+  padding-left: 19rem;
+}
+
+.heroBg .inner p:nth-child(1) {
+  font-size: 25px;
+}
+
+.heroBg .inner .p {
+  width: 30%;
+}
+
+.heroBg .inner h1 {
+  font-size: 70px;
+}
